@@ -3,10 +3,14 @@
 			font-size: 150%;
 }
 
-
 #exp{
 	clear: both;
 }
+
+#img{
+	margin-right: 100px;
+}
+
 .bgC{
 	background-color: cornsilk;
 }
