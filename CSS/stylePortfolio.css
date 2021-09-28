@@ -1,5 +1,5 @@
 .navigation{
-			background-color:navajowhite;
+			background-color:cornsilk;
 			font-size: 150%;
 }
 
@@ -9,10 +9,15 @@
 
 #img{
 	margin-right: 100px;
+	transition: all 1s;
+}
+
+#img:hover{
+	transform: scale(1.1);
 }
 
 .bgC{
-	background-color: cornsilk;
+	background-color: white;
 }
 
 #end{ 
@@ -21,3 +26,10 @@
 	font-size: 150%;
 
 }
+
+@media (max-width: 300px){
+	div {
+		clear: both;
+	}
+}
+
